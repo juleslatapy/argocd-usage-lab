@@ -15,11 +15,11 @@ spec:
         app: labfrontendapp
     spec:
       containers:
-      - image: kodekloud/webapp-color:v2  # field where the image being used is specified at first
+      - image: kodekloud/webapp-color:v3  # field where the image being used is specified at first
         imagePullPolicy: IfNotPresent
         name: labfrontendapp
         ports:
-        - containerPort: 80
+        - containerPort: 8080
           protocol: TCP
         resources: {}
       dnsPolicy: ClusterFirst

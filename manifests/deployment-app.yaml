@@ -15,7 +15,7 @@ spec:
         app: labfrontendapp
     spec:
       containers:
-      - image: kodekloud/webapp-color:v1  # field where the image being used is specified at first
+      - image: kodekloud/webapp-color:v1  # field where the image being used is specified
         imagePullPolicy: IfNotPresent
         name: labfrontendapp
         ports:
